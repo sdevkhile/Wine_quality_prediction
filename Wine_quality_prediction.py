@@ -1,42 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ## Introduction
-
-# In[1]:
-
-
-# Wine is a beverage made from fermented grape and other fruit juices with lower amount of alcohol content.
-# Qulaity of wine is graded based on taste of wine and vintage. This process is time taking, costly and inefficient.
-# A wine itself includes different parameters like fixed acidity, volatile acidity, citric acid, residual sugar, chlorides
-# free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol and quality. 
-
-
-# ### Define the problem 
-
-# In[2]:
-
-
-#  In industry, understanding the demands of wine safety testing can be a complex task for the laboratory with numerous 
-# analytes and residues to monitor.
-# But out application's prediction provide ideal solutions for the analysis of wine, which will make the whole process 
-# efficient and cheaper with less human interaction.
-
-
-# ### Objective 
-
-# In[3]:
-
-
-# Our main objective is to predict the wine quality using machine learning Python programming language.
-# A large dataset is considered and wine quality is modelled to analyse its quality through different parameters like
-#  fixed acidity, alcohol etc.
-# All these parameters will be analysed through Machine learning algorithms which will help rate the wine on scale 1-10
-# or bad-good.
-#  It can support wine expert evaluations and ultimately improve the production. 
-
-
-# #### Importing the necessary libraries
+##### Importing the necessary libraries
 
 # In[1]:
 
@@ -88,7 +53,7 @@ df.tail()
 
 
 df.describe()
-#  Out all the features, free sulfur dioxide and total sulfur dioxide is deviated/disperesed compared to other features
+#  Out all the features, free sulfur dioxide and total sulfur dioxide is deviated/dispersed compared to other features
 #  due to high standard deviation.
 
 
@@ -1041,7 +1006,7 @@ accuracy_score(ytrain,y_pred_train_svc)
 
 # If we take accuracy rate as our evaluation parameter we see that Random Forest is performing better than 
 # other models with accuracy rate of 71% however the model is overfitting. From all the models KNN model 
-#  at K = 23 and Decision Tree is neiter overfitting not underfitting and also giving an accuracy rate of 62-63%. 
+#  at K = 23 and Decision Tree is neither overfitting nor underfitting and also giving an accuracy rate of 62-63%. 
 
 
 # In[ ]:
